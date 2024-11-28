@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Mediun.woff) format('woff');
+    font-weight: 400;
+    font-size: normal;
+}
+
+header {
+    width: 838px;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: 'Cera Pro' sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: inline-flex;
+    align-items: center;
+    border: 5px;
+    padding-right: 37px;
+}
+
+.nav-desc {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    right: 37px;
+    color: #3d3d3d;
+}
+
+.nav-items p{
+    position: absolute;
+    right: 385px;
+    color: #3D3D3D;
+}
+
+.span {
+    font-family: 'Cera Pro' sans-serif;
+    color: #46A358;
+    font-weight: 700;
+}
+
+.card-container {
+    width: 840px;
+    height: 1190px;
+    top: 640px;
+    left: 480px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: -813px;
+}
+
+.card {
+    display: inline-block;
+    width: 258px;
+    padding-right: 37px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    top: 671px;
+    left: 484px;
+    background-color: #FBFBFB;
+}
+
+.card-desc {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3d3d3d;
+}
+
+.aside-container {
+    display: block;
+    width: 310px;
+    left: 120px;
+    background-color: #FBFBFB;
+}
+
+.footer-btn {
+    display: inline-flex;
+}
+
+.button {
+    font-family: 'Cera Pro' sans-serif;
+    width: 35px;
+    height: 35px;
+    top: 1920px;
+    left: 1105px;
+    border-radius: 4px 0px 0px 0px;
+    margin-right: 10px;
+}
+
+.btn-span {
+    background-color: #46a358;
+}
