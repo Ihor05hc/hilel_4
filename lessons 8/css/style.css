@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Regular.woff) format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Medium.woff) format('woff');
+    font-weight: 500;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Black.woff) format('woff');
+    font-weight: 900;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Bold.woff) format('woff');
+    font-weight: bold;
+    font-size: normal;
+}
+
+body {
+    width: 1202px;
+    height: 887px;
+}
+
+.header-block {
+    display: flex;
+    width: 989px;
+    height: 450px;
+    top: 52px;
+    background-color: #FBFBFB;
+    margin-left: 120px;
+}
+
+.header-img {
+    margin-left: 149px;
+    margin-top: 66px;
+    margin-right: 50px; 
+    margin-bottom: -146px;
+}
+
+.header-desc {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: right;
+    padding-right: 222px;
+    padding-top: 94px;
+}
+
+.header-price {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Cera Pro' sans-serif;
+    background-color: #46a358;
+    border-radius: 6px;
+}
+
+.offer-block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 152px;
+    margin-top: 149px;
+    margin-right: 9px;
+    margin-bottom: 13px;
+}
+
+.offer-details {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 615px;
+}
+
+.offer-price {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main-block {
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 29px;
+}
+
+.span {
+    font-family: 'Cera Pro' sans-serif;
+    color: #46A358;
+}
+
+.main-details {
+    background-color: #FBFBFB;
+    width: 268px;
+    height: 190px;
+}
+
+.main-title {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #3d3d3d;
+}
+
+.main-price {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #727272;
+}
+
+.span-read-more {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3d3d3d;
+}
+
+
+
+
+
