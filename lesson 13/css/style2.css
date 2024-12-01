@@ -1,0 +1,85 @@
+.button-3 {
+    background-color: #46a358;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
+
+@keyframes bouncing {
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    }
+    100% {
+        bottom: 30%;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+    }
+}
+
+.btn-shop-now {
+    font-family: 'Cera Pro';
+    padding: 44px;
+    background-color: #46a358;
+    color: #fff;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px 27px;
+    margin: 44px 85px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
+
+.button {
+    font-family: 'Cera Pro';
+    width: 35px;
+    height: 35px;
+    top: 1920px;
+    left: 1105px;
+    border-radius: 6px;
+    border-style: none;
+    margin-right: 14px;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
+
+.button-1 {
+    background-color: #46a358;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    border-style: none;
+    margin-right: 16px;
+    color: #fff;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
+
+.button-2 {
+    width: 150px;
+    height: 50px;
+
+    background-color: #46a358;
+    border-radius: 6px;
+    border-style: none;
+    color: #fff;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
+
+.btn-join {
+    font-family: 'Cera Pro';
+    width: 85px;
+    height: 40px;
+    top: 3107px;
+    left: 1210px;
+    gap: 0px;
+    border-radius: 0px 6px 6px 0px;
+    border-style: none;
+    opacity: 0px;
+    padding-left: 0xp;
+    background-color: #46A358;
+    color: #fff;
+    animation: bouncing 1s ease 1s infinite alternate both;
+}
